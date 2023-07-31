@@ -1,5 +1,5 @@
 module.exports = function reverse(n) {
-    return String(Math.abs(n)).split('').reverse().join('');
+    return +String(Math.abs(n)).split('').reverse().join('');
 
     // or Algorithmic solution
     // let result = 0;
